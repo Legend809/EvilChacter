@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="image/icon.png">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Evil character Galley</title>
+
+	<style type="text/css">
+		.row{
+			display: flex;
+			justify-content: space-around;
+			align-content: center;
+		}
+		img{
+			width: 300px;
+			transform: scale(1);
+			transition: transform 1s;
+			margin-bottom: 3em;
+		}
+
+		
+		img:hover, video:hover{
+			transform: scale(1.2);
+			box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.5);
+			transition: transform 1s;
+		}
+
+		video{
+			width: 20em;
+			height: auto;
+			margin-bottom: 2%;
+			box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.5);
+			transition: transform 1s;
+		}
+
+		button{
+			width: 100%;
+		}
+		nav{
+			display: flex;
+		}
+
+		nav button{
+			width: 50%;
+		}
+
+		.video-area{
+			display: none;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<a href="index.html"><button class="btn btn-primary">Go back</button></a>
+
+		<nav>
+			<button class="btn btn-info img">Images</button>
+			<button class="btn btn-info vd">videos</button>
+		</nav>
+		
+		<div class="img-area">
+			<div class="row" style="margin-top: 2em;">
+				<!-- img 1 -->
+				<div class="col-lg-3">
+					<img src="image/Gv-img.jpg">
+				</div>
+
+				<!-- img 2 -->
+				<div class="col-lg-3">
+					<img src="image/Gv-img2.jpg">
+				</div>
+
+				<!-- img 3 -->
+				<div class="col-lg-3">
+					<img src="image/Gv-img3.jpg">
+				</div>
+			</div>
+
+			<div class="row">
+				<!-- img 1 -->
+				<div class="col-lg-3">
+					<img src="image/Gv-img4.jpg">
+				</div>
+
+				<!-- img 2 -->
+				<div class="col-lg-3">
+					<img src="image/Gv-img5.jpg">
+				</div>
+				<!-- img 3 -->
+				<div class="col-lg-3">
+					<img src="image/Gv-img6.jpg">
+				</div>
+			</div>
+		</div>
+
+		<div class="video-area">
+			<div class="row">
+				<!-- video 1 -->
+				<div class="col-lg-3">
+					<video controls>
+						<source src="https://r5---sn-a5mlrn7y.googlevideo.com/videoplayback?expire=1570746211&ei=A1ufXezpA9CNkgbqs5CACw&ip=107.178.93.107&id=o-ACD7yfpEBaNZDMktEaiS6BgIWoBc42M1rneCOrFniba7&itag=22&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-a5mlrn7y%2Csn-q4f7sn7d&ms=au%2Conr&mv=u&mvi=4&pl=24&mime=video%2Fmp4&ratebypass=yes&dur=273.089&lmt=1542376147539194&mt=1570724365&fvip=4&fexp=23842630&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cratebypass%2Cdur%2Clmt&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AHylml4wRAIgBdT0eAQ-uM10zU9qwuqbtpMHTVW0yzc8pXVOSugLHv4CIHKL5TUuGmqc4DGlHBedsiM__zUz_U8b-YLSOq6Us5xb&sig=ALgxI2wwRAIfMQp9CAFMq7yapm01iBrkQC6mnEvVS6_rvTDUCt-0xAIhAN9K6sdOyVX3Qa6z0pIvP-puhypz1U7M_a4wRU7k264O">
+					</video>
+				</div>
+
+				<!-- video 2 -->
+				<div class="col-lg-3">
+					<video controls>
+						<source src="https://r4---sn-a5msen7z.googlevideo.com/videoplayback?expire=1570746627&ei=o1yfXb3OEJmikgaNwYv4DA&ip=148.163.70.176&id=o-ABetvZR48O_SuBlJyh2miawyxBVF7evX1ZojKwIqvDvf&itag=22&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-a5msen7z%2Csn-a5mekned&ms=au%2Crdu&mv=u&mvi=3&pl=22&mime=video%2Fmp4&ratebypass=yes&dur=271.116&lmt=1542257710345192&mt=1570724365&fvip=4&fexp=23842630&c=WEB&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=ALgxI2wwRgIhAJyY0ld_pJd3Pqb0AW1Gts2jbz_f6ej3rM8Cna5tKMjiAiEAy8q5ez9DmkrgO9z4QSmTIRTu7BV_iWN2YziKN6_Q8r8%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AHylml4wRgIhAKWxLVhCWj8xCxUf5X6oLYx6GzJA7cMv_d91AH4LbDgCAiEA5kfmNUgSzAcn-PvKI9Eu2-vLandY5LkCPGoLbc6rc_0%3D">
+					</video>
+				</div>
+
+				<!-- video 3 -->
+				<div class="col-lg-3">
+					<video controls>
+						<source src="https://r1---sn-a5mlrnes.googlevideo.com/videoplayback?expire=1570746548&ei=VFyfXeK_EoqnkwbVqKvQBA&ip=199.30.54.239&id=o-ABfsfEcYIAhQx6D70-uOQBJ97GXo1zrX8brSEpbGzox0&itag=22&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-a5mlrnes%2Csn-a5mekn7d&ms=au%2Crdu&mv=u&mvi=0&pl=21&mime=video%2Fmp4&ratebypass=yes&dur=806.359&lmt=1540606546841420&mt=1570724365&fvip=2&fexp=23842630&c=WEB&txp=5431432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=ALgxI2wwRAIgRK_RuAqWwQw5XphR-zFxWFkc7VdJS7Gr076PE1SrQLcCICMHjDe6EZv-s4V4dNl44tiG5czaywS0HnEWpdzlDpP5&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AHylml4wRQIhAKU2_gbLxP9WaZoGK0nGOPDFjYnYPYyXqkG8x1NDZB83AiAfqdEim9IDXzliCW1952ajHUbsyI0E3uJXbtXRprTayQ%3D%3D">
+					</video>
+				</div>
+			</div>
+
+			<div class="row">
+				<!-- video 1 -->
+				<div class="col-lg-3">
+					<video controls>
+						<source src="https://r5---sn-a5mlrn7z.googlevideo.com/videoplayback?expire=1570746555&ei=W1yfXdqTIpbYkga-1L2YAQ&ip=148.163.72.26&id=o-AB1QJS4Wn1RuPVKa1_wtBboIwJy6CqUuF9ItrbsS2m1R&itag=22&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-a5mlrn7z%2Csn-n4v7knlz&ms=au%2Conr&mv=m&mvi=4&pl=21&initcwndbps=4540000&mime=video%2Fmp4&ratebypass=yes&dur=201.851&lmt=1552660246983090&mt=1570724873&fvip=5&fexp=23842630&c=WEB&txp=5535432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=ALgxI2wwRAIgDxD7B8GjHRQbxoigq4n2E9DmUM8y2iFkbuj2WxPSm4ACIBjnlgcDegikjGDFrYa4iJnWKyUFSuVdTgyPwngi8jCv&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRAIgSWJao2wpcEPUSbVzAj3trMZG7C4xDKVWA7vlNVD9uEkCIGTkZY53DnHPWkmF71CrpQdHCx1GFYCiYyyBYMUkX-ks">
+					</video>
+				</div>
+
+				<!-- video 2 -->
+				<div class="col-lg-3">
+					<video controls>
+						<source src="https://r2---sn-a5msen7s.googlevideo.com/videoplayback?expire=1570746565&ei=ZVyfXfaeE4XIkwbEpINw&ip=107.189.170.209&id=o-AE8m9Yw8qsUKUQWuUuayEcAH3TeWuyPJ3771kEHHCGi1&itag=22&source=youtube&requiressl=yes&mm=31%2C29&mn=sn-a5msen7s%2Csn-a5meknsd&ms=au%2Crdu&mv=m&mvi=1&pl=18&initcwndbps=4540000&mime=video%2Fmp4&ratebypass=yes&dur=167.601&lmt=1570040501714548&mt=1570724873&fvip=2&fexp=23842630&c=WEB&txp=2316222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=ALgxI2wwRQIhAPqebIwQDU_boMvc4JuwALvQ_iF0RaKIVCg4qsxIVi5-AiBmmZNNFSrucb3NiFn_z8I0k_aCc2-Dh1LKGq1LfeX6kA%3D%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRQIhAMzv46GjtEqFTBgsfq81Z3IzxEENbkaaKn8Ujk8I6g-DAiBtJnAeAZn72vVAeJSLxCAOQn8BNuojfU909hdPnE5rrg%3D%3D">
+					</video>
+				</div>
+
+				<!-- video 3 -->
+				<div class="col-lg-3">
+					<video controls>
+						<source src="https://r3---sn-aigl6ned.googlevideo.com/videoplayback?expire=1570746586&ei=elyfXa-ABc3zVuWms_AM&ip=104.153.82.133&id=o-ADfIarh95WW71g0LK2NoIqYLXH3r5kC_e2AwIV3PrbzT&itag=22&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-aigl6ned%2Csn-5hne6nlr&ms=au%2Conr&mv=u&mvi=2&pl=23&mime=video%2Fmp4&ratebypass=yes&dur=279.312&lmt=1560653720186875&mt=1570724365&fvip=3&fexp=23842630&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=ALgxI2wwRQIhAKdhcP4dxULUzBGIOuZ-HV4jCP5EmPS-cb3enJnqvke8AiB8XJFYV81lTtuzWH-WQh4Z2GqHlF6exvzG-4vYLo8vHw%3D%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AHylml4wRQIhAIAGDWaZ7dAK2arYZ13QJBPwnt1GGE8zIYErBLx01mJhAiAQTsWlCRCRVytlVE1iuEm3gmRam3c9YQ2HpvVUWH2nAA%3D%3D">
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="my.js"></script>
+</body>
+</html>
